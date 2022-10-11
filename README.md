@@ -1,5 +1,5 @@
 
-# Yet Another Notes App
+# Another Notes App
 
 This is a simple note taking app in Android with Integrated API. In this project we have covered everything that is required to create a fully functional app.
 
@@ -15,25 +15,21 @@ This is a simple note taking app in Android with Integrated API. In this project
 - Handling validations and loading state.
 - Complete Signup/Login Flow 
 
-
-## Demo
-
+# Step 1. Add the JitPack repository to your build file
 
 
-## 🚀 About this series
-This series is divided into 2 parts - 
+allprojects {
+		repositories {
+			...
+			maven 
+      { 
+      url 'https://jitpack.io' 
+      }
+		}
+	}
 
-  - Android App
-  - Rest API (Node JS)
+# Step 2. Add the dependency
 
-Tutorials for both of them are available on our channel - CheezyCode.
-
-<a href="https://www.youtube.com/watch?v=XB247JIDmUI&list=PLRKyZvuMYSIMjYhIwc6vP2eVb9JI6Phsv" target="blank">Rest API Tutorial</a>
-
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/c/CheezyCode/)
-[![instagram](https://img.shields.io/badge/instagram-0A66C2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cheezycode)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/cheezycode)
-
+	dependencies {
+	        implementation 'com.github.Waqas098:NoteApp:Tag'
+	}
