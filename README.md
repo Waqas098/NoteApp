@@ -21,10 +21,7 @@ This is a simple note taking app in Android with Integrated API. In this project
 allprojects {
 		repositories {
 			...
-			maven 
-      { 
-      url 'https://jitpack.io' 
-      }
+			maven{ url 'https://jitpack.io' }
 		}
 	}
 
